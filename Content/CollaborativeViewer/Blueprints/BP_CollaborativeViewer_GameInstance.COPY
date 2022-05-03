@@ -1,0 +1,45 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BP_CollaborativeViewer_GameInstance"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="MenuCreated"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="MenuCreated"
+      Begin Object Name="K2Node_FunctionEntry_0"
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="MenuCreated")
+         bIsEditable=True
+         NodeGuid=012E22F5468215F17FAA28A11FBCB7C2
+         CustomProperties Pin (PinId=C18DB0394D50D58524641AB0B9AF9745,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      bEditable=False
+      GraphGuid=E40ECC3C4D1C2B2B2788E191D91C618A
+   End Object
+   Begin Object Name="EventGraph"
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      bAllowDeletion=False
+      GraphGuid=9864ADB94C0CCE04EA39C6BF79F192DC
+   End Object
+   ParentClass=Class'"/Script/Engine.GameInstance"'
+   BlueprintSystemVersion=2
+   UbergraphPages(0)=EdGraph'"EventGraph"'
+   DelegateSignatureGraphs(0)=EdGraph'"MenuCreated"'
+   NewVariables(0)=(VarName="Name",VarGuid=EA29AE914FEC1FFC57ACB29C785B5D32,VarType=(PinCategory="string"),FriendlyName="Name",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=65541)
+   NewVariables(1)=(VarName="MenuCreated",VarGuid=2B1E9F4D4CA3DD85571C30AC7AA6CC0F,VarType=(PinCategory="mcdelegate"),FriendlyName="Menu Created",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=17592454545413,MetaDataArray=((DataKey="MultiLine",DataValue="true")))
+   NewVariables(2)=(VarName="Network Session",VarGuid=9E3129304DA3FA2D1C1BA48104A626F9,VarType=(PinCategory="string"),FriendlyName="Network Session",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=65541,MetaDataArray=((DataKey="MultiLine",DataValue="true")))
+   CategorySorting(0)="Default"
+   CategorySorting(1)="Event Graph"
+   LastEditedDocuments(0)=(EditedObjectPath=/Game/CollaborativeViewer/Blueprints/GameInstance/BP_CollaborativeViewer_GameInstance.BP_CollaborativeViewer_GameInstance:MenuCreated,SavedViewOffset=(X=-762.400024,Y=-498.000000),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath=/Game/CollaborativeViewer/Blueprints/GameInstance/BP_CollaborativeViewer_GameInstance.BP_CollaborativeViewer_GameInstance:EventGraph,SavedViewOffset=(X=-9586.628906,Y=-4948.985840),SavedZoomAmount=1.000000)
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+   GeneratedClass=BlueprintGeneratedClass'"BP_CollaborativeViewer_GameInstance_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=F7BF704B42F50360868BDE844C494F6D
+End Object
